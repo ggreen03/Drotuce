@@ -1,0 +1,85 @@
+.top-links{
+text-decoration: none;
+font-family: comfortaa;
+color: #121212;
+position: relative;
+top: 75px;
+font-size: 3vw;
+}
+.top-links:hover {
+color: #000000;
+}
+#label {
+font-size: 10px;
+font-family: comfortaa;
+}
+
+.header-h1s{
+font-size: 4vw;
+position: relative;
+font-family: arial;
+}
+
+.paragraphs{
+  font-weight: normal;
+  position: relative;
+  left: 20%;
+  font-size: 2vw;
+  font-family: arial
+}
+
+.text-animation{
+animation-name: text-anim;
+animation-duration: 2s;
+z-index: 2;
+}
+
+@keyframes text-anim {
+from {top: 200px; opacity: 10%;}
+to {top: 150px; opacity: 100%;}
+}
+
+.text-animation2 {
+animation-name: text-anim2;
+animation-duration: 2s;
+}
+
+@keyframes text-anim2 {
+from {top: 100px; opacity: 10%;}
+to {top: 75px; opacity: 100%;}
+}
+
+.resource-links{
+color: purple
+
+}
+
+.text-animation3{
+animation-name: text-anim3;
+animation-duration: 2s;
+}
+
+@keyframes text-anim3{
+  from {top: 150px; opacity: 10%;}
+  to {top: 50px; opacity: 100%;}
+}
+
+.text-animation4 {
+animation-name: text-anim4;
+animation-duration: 2s;
+}
+
+@keyframes text-anim4 {
+from {top: 100px; opacity: 10%;}
+to {top: 0px; opacity: 100%;}
+
+.FAQ-h1s {
+color: black;
+font-size: 4vw;
+position: relative;
+left: 20%;
+font-family: comfortaa;
+}
+
+.flip {
+}
